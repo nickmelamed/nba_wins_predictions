@@ -8,11 +8,6 @@ The NBA has been changed dramatically by the rapid rise in 3 point shooting, see
 
 We want to see if this phenomenon holds true on the individual level. We are interested in exploring if shooting more 3s has a causal impact on an individual player’s scoring, not just a linear association. This has some real-world relevance because if players are shooting more 3s without merit, they would be well-served in changing their strategy, both for the betterment of themselves and of the team.
 
-I will be using an unconfoundedness method, specifically outcome regression, to see if we can find a causal impact. 
-
-As for why outcome regression, I wanted to use an unconfoundedness method since there isn’t a source of randomness to produce a natural experiment, and since we are accounting for a lot of confounders, I felt like creating a regression model that takes into account observable confounders that have a linear relationship made the most sense in terms of interpretability of results. 
-
-We are faced with some limitations, as we cannot observe every single possible confounder, such as a team strategy of all players shooting more 3s. So, our utilization of the unconfoundedness assumption, while still likely valid, does operate under a level of uncertainty. If it turns out that these unobserved confounders have a lot of influence over our causal impact estimate, then we are left with a result that is unusable. 
 
 ### Question 2: 
 
