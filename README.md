@@ -26,4 +26,5 @@ Both of these datsets come courtesy of NBAstuffer.com, a NBA statistic aggregato
 
 ## Analysis
 
-`main.ipynb`: Main narrative notebook that includes entire analysis as well as additional commentary. 
+`Q1_main.ipynb`: Main narrative notebook for Question 1 that includes entire analysis as well as additional commentary.
+`Q2_main.ipynb`: Main narrative notebook for Question 2 that includes entire analysis as well as additional commentary. 
