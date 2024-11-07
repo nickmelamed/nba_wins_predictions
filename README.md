@@ -9,7 +9,7 @@ The NBA has been changed dramatically by the rapid rise in 3 point shooting, see
 We want to see if this phenomenon holds true on the individual level. We are interested in exploring if shooting more 3s has a causal impact on an individual player’s scoring, not just a linear association. This has some real-world relevance because if players are shooting more 3s without merit, they would be well-served in changing their strategy, both for the betterment of themselves and of the team.
 
 
-### Question 2: 
+### Question 2: Do Advanced Statistics Have Predictive Value for Wins? 
 
 Advanced metrics, or statistics that take basic counting stats and transform them into a singular, useful value, have become a hallmark of team and player evaluation. Look no further than MVP voting, beat articles, and draft evaluations to see that advanced metrics are widely wielded. There is clearly sentiment that these statistics are incredibly useful. But is this true? 
 
@@ -26,3 +26,9 @@ Both of these datsets come courtesy of NBAstuffer.com, a NBA statistic aggregato
 
 `Q1_main.ipynb`: Main narrative notebook for Question 1 that includes entire analysis as well as additional commentary. <br><br>
 `Q2_main.ipynb`: Main narrative notebook for Question 2 that includes entire analysis as well as additional commentary. 
+
+## Q2_dependencies (Dependencies/Installation)
+
+`environment.yml` and `Makefile` are used for `Q2_main.ipynb` because I use depreciated packages pymc3 and theano. So, to make sure these run properly for Q2_main.ipynb, run make env in your terminal/shell to set up the conda environment.
+
+Then use resulting Q2_main kernel to run all analysis notebooks. 
