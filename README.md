@@ -29,6 +29,8 @@ Both of these datsets come courtesy of NBAstuffer.com, a NBA statistic aggregato
 
 ## Q2_dependencies (Dependencies/Installation)
 
-`environment.yml` and `Makefile` are used for `Q2_main.ipynb` because I use depreciated packages pymc3 and theano. So, to make sure these run properly for Q2_main.ipynb, run make env in your terminal/shell to set up the conda environment.
+`environment.yml` and `Makefile` are used for `Q2_main.ipynb` because I use pymc which requires certain dependencies. So, to make sure these run properly for Q2_main.ipynb, run `make env` in your terminal/shell to set up the conda environment.
 
 Then use resulting Q2_main kernel to run all analysis notebooks. 
+
+Alternatively, you can use the `environment.yml` file and set up the environment the traditional way using `conda`. 
